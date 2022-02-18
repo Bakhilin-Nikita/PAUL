@@ -67,3 +67,63 @@ h1{
     padding-left: 30%;
     color: white;
 }
+
+.section_1{
+    background-color: #faf7f7;
+    height: 850px;
+}
+
+.section_name{
+    padding-left: 43%;
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+.images_block{
+    display: flex;/* в ряд */
+    flex-wrap: wrap ; /* в случае заканчвинаия длины страницы переносит на следующий абзац */
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.image{
+    margin-top: 20px;
+    width: 30%;
+}
+
+img{
+    width: 100%;
+}
+
+.section_2{
+    background-color: #e3e1e1;
+    height: 200px;
+}
+
+.footer{
+    padding-left: 35%;
+    padding-top: 80px;
+    height: 250px;
+    background-color: #423737;
+}
+
+p{
+    color: white;
+}
+
+.first{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.second{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 85px;
+}
+
+.last{
+    padding-top: 10px;
+    padding-left: 140px;
+    font-size: 15px;
+}
