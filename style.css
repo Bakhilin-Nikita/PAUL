@@ -10,8 +10,8 @@
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
     background-image: url(hw/photos/back.jpg);
+    height: 1000px;
 }
 
 header{
@@ -38,7 +38,7 @@ header{
 }
 
 .menu{
-    margin-left: 1050px;
+    margin-left: 60%;
 }
 .menu_bar{
     margin-left: 20px;
@@ -126,4 +126,18 @@ p{
     padding-top: 10px;
     padding-left: 140px;
     font-size: 15px;
+}
+
+.social_media{
+    padding-left: 13%;
+    line-height: 250px;
+    display: flex;
+}
+
+.photo{
+    margin-left: 10%;
+}
+
+a:hover{
+    cursor: pointer;
 }
